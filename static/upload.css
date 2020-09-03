@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+body
+{
+    background:linear-gradient(to right,black,gold);
+}
+.cont
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    font-family: 'Saira Stencil One', cursive;
+    font-size:310%;
+    color:white;
+}
+b
+{
+    font-family: 'Lily Script One', cursive;
+    font-size:310%;
+    margin-bottom: 2%;
+    color:lime;
+}
+i
+{
+    font-family: 'Lily Script One', cursive;
+    font-size:200%;
+    color:white;
+}
+.button
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+a
+{
+    margin-left:25%;
+    font-size:80%;
+    color:white;
+}
+form
+{
+    margin-left:37%;
+    margin-top: 1%;
+}
+.images
+{
+    display: grid;
+    grid-template-rows: repeat(1500,55%);
+    grid-template-columns: repeat(3,30%);
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+    margin-left:5%;
+}
+img
+{
+    height:380px;
+    width:390px;
+}
+button
+{
+    background-color: darkgreen;
+    height:35px;
+    width:25%;
+    margin-left: 22%;
+    margin-top:4%;
+}

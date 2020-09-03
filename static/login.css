@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+body
+{
+    background: url("Images/stock-vector-hanging-retro-camera-sweet-memories-eps-298904378.jpg");
+}
+form
+{
+    display: grid;
+    grid-template-rows: repeat(2,85%);
+    grid-template-columns: repeat(2,118px);
+    align-items: center;
+    margin-left:35%;
+}
+input
+{
+    width:340%;
+    height:20px;
+}
+h1
+{
+    margin-top: 14%;
+    margin-left:35%;
+    margin-bottom: 3%;
+    font-family: 'Saira Stencil One', cursive;
+    font-size:310%;
+}
+b
+{
+    font-family: 'Lily Script One', cursive;
+    font-size:150%;
+}
+button
+{
+    margin-left: 200%;
+    margin-top: 2%;
+    background-color: darkgreen;
+    height:35px;
+    width:65%;
+}
+#acc
+{
+    margin-left: 40%;
+    margin-top: 8%;
+}                        

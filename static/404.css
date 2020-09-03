@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+.cont
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top:10%;
+   margin-left:4%;
+}
+h1
+{
+    font-family: 'The Girl Next Door';
+    font-size: 300%;
+}
+p
+{
+    font-family: "Kaushan Script" ;
+    font-size: 190%;
+}       

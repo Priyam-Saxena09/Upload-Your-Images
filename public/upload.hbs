@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Memories</title>
+    <link rel="stylesheet" href="upload.css">
+    <link rel="icon" href="Images/frame_photo_picture_portrait_members_memories-512.png">
+</head>
+<body>
+    <div class="cont">
+        <h1>Hi {{name}}</h1>
+        <b>Welcome to Album of your memories.</b>
+        <b>Just upload your pics which will become a memory in future.</b>
+        <b id="mail">Be in contact with us through your email {{email}}</b>
+    </div>
+    <div class="button">
+        <form action = "/upld" method="POST" enctype="multipart/form-data">
+            <label for="up"><i>Upload Pics: </i></label>
+            <input type="file" id="up" name="uploads">
+            <button>Upload</button>
+        </form>
+        <a href = "/logout"><b id="out">Log Out</b></a>
+    </div>
+    <div class="images">
+    </div>
+    <script src="upload.js"></script>
+</body>
+</html>
